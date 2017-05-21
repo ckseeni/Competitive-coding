@@ -1,0 +1,35 @@
+public class Solution {
+    public boolean detectCapitalUse(String word) {
+        if(word.charAt(0)>='A'&&word.charAt(0)<='Z'){
+            int i=1;
+            for(i=1;i<word.length();i++){
+                if(word.charAt(i)>='a'&&word.charAt(i)<='z')
+                    break;
+            }
+            if(i==word.length())
+                return true;
+            else{
+                int j=1;
+                for(j=1;j<word.length();j++){
+                    if(word.charAt(j)>='A'&&word.charAt(j)<='Z')
+                        break;
+                } 
+                if(j==word.length())
+                    return true;
+            }
+        }
+        else if(word.charAt(0)>='a'&&word.charAt(0)<='z'){
+             int k=1;
+            for(k=1;k<word.length();k++){
+                if(word.charAt(k)>='A'&&word.charAt(k)<='Z')
+                    break;
+            } 
+            if(k==word.length())
+                return true;    
+        }
+        else
+            return false;
+    
+    return false;
+    }
+}

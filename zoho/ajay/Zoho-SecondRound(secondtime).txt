@@ -1,0 +1,94 @@
+Zoho Second Round : 
+
+1.Add two reversed numbers.
+
+Note : Dont use array/string as input.Don't reverse the number and add it in a separate variable.
+-----------------------------
+I/p-1 : 		
+		543
+		321
+O/p-1 : 
+		468
+----------------------------
+I/p-2 : 
+		1
+		999
+O/p-2 :
+		1000
+----------------------------
+
+
+2.Given an Array of size S, and Rotation number R , 
+  Left-Rotate the given array R times & print the Array.
+----------------------------
+I/p-1 : 
+	S : 5;
+	R : 2;
+	Array : 1 2 3 4 5
+O/p-1 :
+	3 4 5 2 1
+----------------------------
+I/p-2 :
+	S:3
+	R:3
+	Array : 1 2 3
+O/p-2 :
+	1 2 3 
+---------------------------
+
+3.Given an Array of size S, Find the next maximum number of the 
+  current number and if the current value is max, then print the current value itself
+  else print the next maximum value.
+	
+ Note : Check rightwards.
+
+---------------------------
+I/p-1 : 
+	S: 5
+	Array : 4 3 5 7 2
+O/p-1 : 
+	5 5 7 7 2	
+---------------------------
+I/p-2 :
+	S : 10
+	Array : 1 2 3 4 5 6 7 8 9 10
+O/p-2 :
+	2 3 4 5 6 7 8 9 10 10 
+----------------------------
+
+4.Given an Array of size S,and Key value K,
+  group the given array based on K and print the maximum number among 
+  that group.
+
+------------------------------
+I/p-1 : 
+	S:8
+	K:3
+	Array : 1 2 3 4 5 6 7 8 
+O/p-1 : 
+	3 4 5 6 7 8 
+-------------------------------
+I/p-2 : 
+	S: 4
+	K: 2
+	Array : 13 5 6 7
+O/p-2 :
+	13 6 7
+------------------------------
+
+5.Find the Minimum difference of two numbers in an Array of size S,
+  and print those two numbers.
+
+-------------------------------
+I/p-1 :
+	S:5
+	Array : 50 0 2 75 3
+O/p-1 : 
+	2 and 3.
+-------------------------------
+I/p-2 : 
+	S:10
+	Array : 900 1000 534 10 0 5 901 350 250 7 
+O/p-2 : 
+	900 and 901.
+-------------------------------

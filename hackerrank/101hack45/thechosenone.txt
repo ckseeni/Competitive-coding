@@ -1,0 +1,11 @@
+Array: {12, 20, 4, 3, 24}
+
+Lets precompute gcd of all prefixes (pre[i] according to anthonyhuang's notation): pre[0]=12, pre[1]=gcd(12, 20)=4, pre[2]=gcd(pre[1], 4)=4 pre[3]=gcd(pre[2], 3)=gcd(4, 3)=1. pre[4]=gcd(pre[3], 24)=1
+
+And similarly, the suffixes: suf[4]=24. suf[3]=gcd(suf[4], 3)=gcd(24, 3)=3. suf[2]=gcd(suf[3], 3)=1. suf[1]=gcd(suf[2], 20)=1. suf[0]=gcd(suf[1], 12)=1.
+
+So, if the chosen will be 3 (a[3]), we want gcd of all the other numbers, and we obtain that by doing gcd(pre[2], suf[4])=gcd(4, 24)=4.
+
+Note that 4 divides all numbers up to a[2] because it divides pre[2], and similarly it divides all numbers from a[4] to the end (in this case just a[4]), because it divides suf[4].
+
+As 4 does not divide 3, we found that 4 divides all of the numbers except for 3.

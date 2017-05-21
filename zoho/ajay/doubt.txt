@@ -1,0 +1,4 @@
+given an unsorted array..find combinations of all elements that sum up to a given number
+order should be maintained.eg:{8,3,4,7,9}-->{3,4}{7}
+
+
