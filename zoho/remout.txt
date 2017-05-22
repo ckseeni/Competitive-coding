@@ -1,5 +1,0 @@
-set 29:
-set 5:
-set 9
-set 8
-set 3
